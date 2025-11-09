@@ -8,7 +8,7 @@
 - それぞれが自分の番号とメッセージを出力
 - `time.Sleep()`で実行順序の違いを確認
 
-### []課題2: channelを使った通信
+### [x]課題2: channelを使った通信
 goroutine間でデータをやり取りするプログラムを作成してください。
 - 送信用goroutineと受信用goroutineを作成
 - channelを使って10個の数値を送受信
