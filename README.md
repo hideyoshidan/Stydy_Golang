@@ -26,7 +26,7 @@ goroutine間でデータをやり取りするプログラムを作成してく�
 - 生産者goroutineが10個のアイテムを生成
 - 消費者goroutineが処理
 
-### []課題5: selectを使った複数channel制御
+### [x]課題5: selectを使った複数channel制御
 複数のchannelから同時に受信するプログラムを作成してください。
 - 2つ以上のchannelを使用
 - `select`文で最初に受信したデータを処理
